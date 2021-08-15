@@ -15,6 +15,12 @@ print(client.open())
 #     for i, adress_s in enum_s:
 #         if(i == num):
 #             client.write_single_coil(adress, True)
+
+# def write_arm(arm,adress):
+#     if (sensor2[0]  == True):
+#         client.write_single_coil(adress, True)
+#     else:
+#         client.write_single_coil(adress, False)
         
     
 
